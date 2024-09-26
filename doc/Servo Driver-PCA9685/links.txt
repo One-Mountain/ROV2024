@@ -1,0 +1,12 @@
+Adafruit 16-Channel 12-bit PWM/Servo Driver Product Page: 
+https://www.adafruit.com/product/815
+
+PCA9685 16-Channel Servo Driver Files: 
+https://learn.adafruit.com/16-channel-pwm-servo-driver/downloads
+
+Servo Driver Library Servokit and example: 
+https://docs.circuitpython.org/projects/servokit/en/latest/
+
+Servo Test with code: 
+https://www.kevsrobots.com/learn/pca9685/05_setting_up_the_pca9685_with_raspberry_pi.html
+
