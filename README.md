@@ -7,6 +7,7 @@ LBCC ROV 2024 files. Code and examples are in this repository.
 -use git clone to add this into your own computer. 
 
 check out this short youtube video to collaborate with this repository: 
+https://www.youtube.com/watch?v=nlF-SOrod5o
 
 -use git status to make sure you have everything up to date. 
 -if not updated use git pull to get the latest version. 
