@@ -9,6 +9,7 @@ LBCC ROV 2024 files. Code and examples are in this repository.
 check out this short youtube video to collaborate with this repository: 
 
 -use git status to make sure you have everything up to date. 
+-if not updated use git pull to get the latest version. 
 
 -use git checkout -B (your Name)/(what you are working on) to create a branch on what you will be working on. 
 
