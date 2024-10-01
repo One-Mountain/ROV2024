@@ -1,0 +1,5 @@
+Materials needed: 
+LED
+Resistor: 1k ohms
+raspberry pi
+ethernet/wifi connection
