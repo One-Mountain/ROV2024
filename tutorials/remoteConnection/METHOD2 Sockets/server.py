@@ -3,7 +3,7 @@ import threading
 
 #sending an object back to server, need pickle?
 #https://www.youtube.com/watch?v=3QiPPX-KeSc explanation of code
-PORT = 5050 #must use above 1024 
+PORT = 50505 #must use above 1024 
 HEADER = 64 #fixed first message must be. May need to revisit this for longer messages. 
 #grabs your own computer's ip address
 SERVER = socket.gethostbyname(socket.gethostname())
@@ -16,7 +16,7 @@ DISCONNECT_MESSAGE = "!DISCONNECT"
 #type of ip address we want to look at and streaming data. 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server.bind(ADDR)
+server.bind(("0.0.0.0",PORT))   #fixed to accept any address. 
 
 def handle_client(conn, addr):
     print("{New connection! ", addr, " connected.")

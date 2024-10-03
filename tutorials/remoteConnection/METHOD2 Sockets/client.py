@@ -1,9 +1,9 @@
 import socket 
 
-PORT = 5050 #must use above 1024 
+PORT = 50505 #must use above 1024 
 HEADER = 64 #fixed first message must be. May need to revisit this for longer messages. 
 #grab the ip address from server.
-SERVER = "192.168.1.9"
+SERVER = "192.168.1.23"
 #to bind socket, address needs to be tuple
 FORMAT = 'utf-8'
 #message to start disconnection
